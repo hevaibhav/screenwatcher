@@ -1,8 +1,8 @@
-# ScreenWatcher — Red Team Screen Capture Exfil Tool
+# ScreenWatcher 
 
 **Python-based utility that monitors screen changes and exfiltrates screenshots via Telegram Bot API, with self-deletion capability.**
 
-Built for authorized penetration testing, red team engagements, and security awareness demonstrations.
+Built for authorized penetration testing, and security awareness demonstrations.
 
 ---
 
@@ -35,3 +35,8 @@ Built for authorized penetration testing, red team engagements, and security awa
 
 ```bash
 pip install mss numpy pillow requests pyinstaller
+
+## Change in desktop.py
+
+BOT_TOKEN = "YOUR_BOT_TOKEN"    # Telegram bot token from @BotFather
+CHAT_ID   = "YOUR_CHAT_ID"      # Your Telegram user/group chat ID
